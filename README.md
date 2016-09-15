@@ -1,6 +1,28 @@
 # RubyPython
 A description of the differences between Ruby and Python programming languages
 
+Similarities between Ruby and Python:
+
+Both have a shell function in the terminal:<br>
+	In Ruby it is irb, type the command and the CLI prompt becomes: irb(main):001:0><br>
+	In Python, it is python, type the command line and the prompt is >>><br><br>
+
+Talk about indentation…Python vs Ruby<br>
+Blocks (Ruby require {} and end)<br>
+
+
+Mutable objects can be changed after they have been created.<br>
+Immutable objects cannot be changed or re-assign, attempts will throw an error.<br>
+
+STRINGS:<br>
+Mutable in Ruby. You can edit, , manipulate, remove characters from or add to any string.<br>
+Immutable in Python. Can not be altered.<br>
+
+LISTS: Mutable in both.<br>
+
+TUPLES: Immutable in Python.<br>
+
+
 Lists (Python) are Arrays (Ruby)<br>
 A list/collection of items in order.<br>
 Can include any variety of data types including strings, integers, assigned variables, booleans and even other arrays.<br>
