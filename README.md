@@ -50,4 +50,27 @@ to query a value from a key --> carType['year'] NOTE: for a result, you have to 
 to see simple result --> puts "This is a #{carType['model']}." --> This is a Corvette.<br>
 to see complex result string --> puts "This is a #{carType['year']} #{carType['colour']} #{carType['brand']} #{carType['model']}." --> This is 2012 black Chevrolet Corvette.<br><br>
 
-resource: https://learnrubythehardway.org/book/ex39.html
+resource: https://learnrubythehardway.org/book/ex39.html<br><br>
+
+INPUT: Python: 	Raw input is used to collect strings:<br>
+	name=raw_input("What is your name?")<br>
+	print "Hello ", name<br>
+	type(name) # identifies the data type of the user input, which is 'str'<br><br>
+Input is used to read integers: <br>
+	age=input("How old are you?")<br>
+	print "So, you are ", age<br>
+	type(age) # identifies the data type of the user input, which is 'int'<br><br>
+
+INPUT: Ruby: gets is used to collect string data:<br>
+	print "What is your name? "<br>
+	name = gets<br>
+	print "How old are you? "<br>
+	age = gets<br>
+	print "How tall are you? "<br>
+	height = gets<br>
+	
+	puts "Hi #{name}, you're #{age} years old, and #{height} tall. Wow!"<br>
+
+	gets.chomp (removes the line break that comes from the user pressing ENTER after each answer)<br>
+	gets.chomp.to_i (takes the user input and makes the variable an integer, see also to_f, to_s)<br>
+
